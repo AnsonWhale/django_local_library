@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('Django_SECRET_KEY','dOm>eY6orpP>6vQ5bAW}Rtf(v,gAf6'
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vast-tor-33610.herokuapp.com','127.0.0.1']
 
 
 # Application definition
